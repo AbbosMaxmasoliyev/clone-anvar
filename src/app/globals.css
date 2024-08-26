@@ -13,7 +13,7 @@
   }
 
   @font-face {
-    font-family: 'Arv&apos;;
+    font-family: "Arvo";
     font-style: normal;
     font-weight: 400;
     font-display: swap;
@@ -21,12 +21,12 @@
   }
 
   @font-face {
-    font-family: 'Syne';
+    font-family: "Syne";
     src: url("../fonts/Syne/Syne-Regular.ttf");
   }
 
   @font-face {
-    font-family: 'Oswald';
+    font-family: "Oswald";
     src: url("../fonts/Oswald/Oswald-Regular.ttf");
   }
 }
