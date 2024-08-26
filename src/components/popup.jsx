@@ -6,9 +6,9 @@ import { useRouter } from 'next/navigation';
 
 
 const Popup = ({ isOpen, onClose }) => {
+    const router = useRouter()
     if (!isOpen) return null;
 
-    const router = useRouter()
     return (
         <div className="fixed inset-0 bg-gray-800 bg-opacity-50 flex justify-center items-center z-50 w-full min-h-screen">
             <button className="absolute top-[20px] right-[20px]" onClick={onClose}><MdClose color='#f1f1f1' className="text-2xl" /></button>
