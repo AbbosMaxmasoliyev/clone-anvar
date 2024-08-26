@@ -19,8 +19,8 @@ const TestiominalCard = () => {
             </div>
             <div className="flex flex-row ">
                 {
-                    [1, 2, 3, 4, 5].map(() => {
-                        return <MdOutlineStarPurple500 color='#EBC500' />
+                    [1, 2, 3, 4, 5].map((value) => {
+                        return <MdOutlineStarPurple500 color='#EBC500' key={index} />
                     })
                 }
             </div>

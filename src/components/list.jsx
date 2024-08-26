@@ -12,43 +12,43 @@ const List = () => {
                         <li className="flex items-start">
                             <span className="text-2xl font-bold mr-4 font-os">01</span>
                             <span className='font-os text-xl'>
-                                Mijozlaringizni muammo va og'riqlarini aniqlaysiz va bu orqali ular nima natija uchun pul to'lashga tayyorligini bilib olasiz
+                                Mijozlaringizni muammo va og'riqlarini aniqlaysiz va bu orqali ular nima natija uchun pul t&apos;lashga tayyorligini bilib olasiz
                             </span>
                         </li>
                         <li className="flex items-start">
                             <span className="text-2xl font-bold mr-4 font-os">02</span>
                             <span className='font-os text-xl'>
-                                Mijozlaringiz rad eta olmaydigan taklif yaratish qadamlarini o'rganasiz
+                                Mijozlaringiz rad eta olmaydigan taklif yaratish qadamlarini &apos;rganasiz
                             </span>
                         </li>
                         <li className="flex items-start">
                             <span className="text-2xl font-bold mr-4 font-os">03</span>
                             <span className='font-os text-xl'>
-                                Shaxsiy brend nimadan boshlash kerakligini va bu orqali mijozlarda ishonch uyg'otishni o'rganasiz
+                                Shaxsiy brend nimadan boshlash kerakligini va bu orqali mijozlarda ishonch uyg'otishni &apos;rganasiz
                             </span>
                         </li>
                         <li className="flex items-start">
                             <span className="text-2xl font-bold mr-4 font-os">04</span>
                             <span className='font-os text-xl'>
-                                O'z sotuv voronkangizni yaratib, mijozlar oqimini yo'ga qo'yishni o'rganasiz
+                                &apos;z sotuv voronkangizni yaratib, mijozlar oqimini y&apos;ga q&apos;yishni &apos;rganasiz
                             </span>
                         </li>
                         <li className="flex items-start">
                             <span className="text-2xl font-bold mr-4 font-os">05</span>
                             <span className='font-os text-xl'>
-                                Mijozlaringiz rad eta olmaydigan taklif yaratish qadamlarini o'rganasiz
+                                Mijozlaringiz rad eta olmaydigan taklif yaratish qadamlarini &apos;rganasiz
                             </span>
                         </li>
                         <li className="flex items-start">
                             <span className="text-2xl font-bold mr-4 font-os">06</span>
                             <span className='font-os text-xl'>
-                                Shaxsiy brend nimadan boshlash kerakligi va bu orqali mijozlarda ishonch uyg'otishni o'rganasiz
+                                Shaxsiy brend nimadan boshlash kerakligi va bu orqali mijozlarda ishonch uyg'otishni &apos;rganasiz
                             </span>
                         </li>
                         <li className="flex items-start">
                             <span className="text-2xl font-bold mr-4 font-os">07</span>
                             <span className='font-os text-xl'>
-                                Mijozlarni ko'ndirish va qimmat chekga sotishni o'rganasiz
+                                Mijozlarni k&apos;ndirish va qimmat chekga sotishni &apos;rganasiz
                             </span>
                         </li>
                     </ol>

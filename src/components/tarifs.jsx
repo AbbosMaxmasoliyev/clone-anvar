@@ -39,7 +39,7 @@ const Tarifs = () => {
                             <li className='line-through'>Ertasi kuni 2 soatlik yopiq offline razbor</li>
                         </ol>
                         <p className='text-center w-full line-through font-bold text-2xl mt-5'>497,000 SO’M</p>
-                        <p className='px-4 py-1 text-white text-4xl font-os border rounded-xl mt-5'>297.000 SO'M</p>
+                        <p className='px-4 py-1 text-white text-4xl font-os border rounded-xl mt-5'>297.000 S&apos;M</p>
                         <button className="border h-14 flex justify-center items-center text-xl text-white rounded-[45px] bg-blue-600 w-10/12  absolute bottom-[-14px]">
                             <span>JOY BAND QILISH</span>
                         </button>
@@ -58,7 +58,7 @@ const Tarifs = () => {
                             <li className='line-through'>Ertasi kuni 2 soatlik yopiq offline razbor</li>
                         </ol>
                         <p className='text-center w-full line-through font-bold text-2xl mt-5'>497,000 SO’M</p>
-                        <p className='px-4 py-1 text-white text-4xl font-os border rounded-xl mt-5 mb-5'>297.000 SO'M</p>
+                        <p className='px-4 py-1 text-white text-4xl font-os border rounded-xl mt-5 mb-5'>297.000 S&apos;M</p>
                         <button className="border h-14 flex justify-center items-center text-xl text-white rounded-[45px] bg-blue-600 w-10/12  absolute bottom-[-14px]">
                             <span>JOY BAND QILISH</span>
                         </button>
@@ -74,7 +74,7 @@ const Tarifs = () => {
                         information.map((info, index) => {
 
                             return (
-                                <div className="flex flex-row justify-center  bg-[#dbaa6c] p-2  rounded-[45px] w-[434px] max-w-[90%] md:h-[194px] relative z-10">
+                                <div className="flex flex-row justify-center  bg-[#dbaa6c] p-2  rounded-[45px] w-[434px] max-w-[90%] md:h-[194px] relative z-10" key={index}>
                                     <Image src={info.image} className={`absolute md:${index % 2 === 0 ? "top-[-40px] md:right-[-80px]" : "bottom-[-40px] md:left-[-70px]"} z-0`} width={100} height={100} />
                                     <div className="border grid grid-cols-1 grid-rows-2 gap-3 md:p-2 p-5 items-start text-xl text-white  px-5 border-white border-solid rounded-[45px] w-full h-full relative ">
                                         <p className='text-start text-2xl md:text-4xl self-center'>1-BONUS</p>

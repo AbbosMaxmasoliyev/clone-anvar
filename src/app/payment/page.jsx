@@ -106,7 +106,7 @@ const Payment = () => {
 
     return (
         <div className="container max-w-lg mx-auto px-[0.6rem] bg-white">
-            <title>To'lov sahifasi</title>
+            <title>T&apos;lov sahifasi</title>
             <div className="flex flex-col gap-2 pt-5 lg:py-5">
                 <header>
                     <div className="flex justify-end">
@@ -195,11 +195,11 @@ const Payment = () => {
                         <div className="z-10 flex flex-col gap-1">
                             <h2 className="text-[22px] font-bold text-[#2f3462] capitalize">{course}</h2>
                             <div className="text-[16px] font-medium text-[#535888]">Tarif: {tarif}</div>
-                            <div className="text-[38px] font-bold text-[#2f3462]">997,000 so'm</div>
+                            <div className="text-[38px] font-bold text-[#2f3462]">997,000 s&apos;m</div>
                         </div>
                         <div className="z-10 flex items-center justify-between">
                             <p className="text-[12px] font-medium">
-                                To'lov qilish havolasi <br /> muddati tugashiga qoldi:
+                                T&apos;lov qilish havolasi <br /> muddati tugashiga qoldi:
                             </p>
                             <div className="px-[30px] py-[12px] font-medium text-white bg-white rounded-xl">
                                 <div className="text-[#d1444e] text-[18px]" id="timer">
@@ -215,7 +215,7 @@ const Payment = () => {
                         <img width="100px" src="https://pays.supermiya.uz/storage/time-over.png" alt="timeover" />
                     </div>
                     <div className="ml-2">
-                        <h1 className="mb-1 text-[16px] font-bold text-[#2f3462]">VAQT TUGAGANGA<br /> O'XSHAYDI.</h1>
+                        <h1 className="mb-1 text-[16px] font-bold text-[#2f3462]">VAQT TUGAGANGA<br /> &apos;XSHAYDI.</h1>
                         <p className="text-[14px] font-medium text-[#535888]">
                             Lekin biz allaqachon siz uchun yangi to’lov havolasini yaratdik:
                         </p>
@@ -240,7 +240,7 @@ const Payment = () => {
                                         <div className="flex items-center gap-1">
                                             <span className="uppercase">Plastik karta</span>
                                         </div>
-                                        <span className="text-lg font-medium">997,000 so'm</span>
+                                        <span className="text-lg font-medium">997,000 s&apos;m</span>
                                     </div>
                                     <hr className="my-3" />
                                     <div className="flex justify-between">
@@ -406,7 +406,7 @@ const Payment = () => {
                                                 style={{ margin: '0px 5px' }}
                                             />
                                             <label htmlFor="bordered-radio-1" className="w-full py-4 ml-2">
-                                                To'liq to'ladim
+                                                T&apos;liq t&apos;ladim
                                             </label>
                                         </div>
                                         <div className="flex items-center w-full pl-2 text-base transition border shadow outline-none appearance-none border-slate-200 hover:border-slate-300 rounded-xl focus:border-border-indigo-500 focus:ring-1 focus:ring-indigo-500">

@@ -63,14 +63,14 @@ const Introduction = () => {
 
                         if (index  % 3 == 0 || (index + 1) % 3 == 1) {
 
-                            return (<div className="flex flex-row justify-center  bg-[#dbaa6c] p-2 rounded-md w-[434px] h-[194px]">
+                            return (<div className="flex flex-row justify-center  bg-[#dbaa6c] p-2 rounded-md w-[434px] h-[194px]" key={index}>
                                 <div className="border flex flex-col gap-3 items-start text-xl text-white  px-5 border-white border-solid rounded-md w-full h-full py-5">
                                     <p className='text-start text-4xl self-start'>{value.title}</p>
                                     <p className='text-start  self-start'>{value.information}</p>
                                 </div>
                             </div>)
                         } else {
-                            return (<div className="flex flex-row justify-center bg-[#2f2f2f] p-2 rounded-md w-[434px] h-[194px]">
+                            return (<div className="flex flex-row justify-center bg-[#2f2f2f] p-2 rounded-md w-[434px] h-[194px]" key={index}>
                                 <div className="border flex flex-col gap-3 items-start text-xl text-white  px-5 border-white border-solid rounded-md w-full h-full py-5">
                                     <p className='text-start text-4xl self-start'>{value.title}</p>
                                     <p className='text-start  self-start'>{value.information}</p>
