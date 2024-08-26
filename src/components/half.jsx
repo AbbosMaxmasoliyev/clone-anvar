@@ -1,17 +1,18 @@
+"use client"
 import Link from 'next/link'
 import React from 'react'
 import Footer from './footer'
 import CountdownTimer from './timer'
 
 
-const Half = ({ percentage = 50 }) => {
+const Half = ({ percentage }) => {
 
 
     return (
         <div className="flex flex-col items-center w-full min-h-screen justify-center font-os pt-16 h-auto pb-5 bg-black text-white">
             <div className="flex flex-row bg-[#d1d1d1] relative h-5 rounded-md w-[450px] max-w-[90%]">
                 <span className="absolute top-[-25px] right-[46%]">{percentage}%</span>
-                <div className={`flex flex-row bg-[#a9231a]  w-[${percentage}%] h-5 rounded-md relative`}>
+                <div className={`flex flex-row bg-[#a9231a]  w-[${percentage}%]  h-5 rounded-md relative`}>
                 </div>
             </div>
 

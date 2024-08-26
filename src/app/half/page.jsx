@@ -4,7 +4,7 @@ import React from 'react'
 const Index = () => {
     return (
         <div>
-            <Half />
+            <Half percentage={50}/>
         </div>
     )
 }
