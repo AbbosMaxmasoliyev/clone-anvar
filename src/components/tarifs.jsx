@@ -7,17 +7,17 @@ const Tarifs = () => {
     const information = [
         {
             title: "1-BONUS",
-            decsription: "Qimmat sotib oladigan mijozlarni jalb qilishni 7 ta qadami qo’llanma. (Qiymati 997,000 so’m)",
+            decsription: "Qimmat sotib oladigan mijozlarni jalb qilishni 7 ta qadami qollanma. (Qiymati 997,000 som)",
             image: "/vol1.png"
         },
         {
             title: "2-BONUS",
-            decsription: "Kim bilan ishlash kerak, va kim bilan ishlamaslik kerak cheklistini. (Qiymati 497,000 so’m)",
+            decsription: "Kim bilan ishlash kerak, va kim bilan ishlamaslik kerak cheklistini. (Qiymati 497,000 som)",
             image: "/qalam.png"
         },
         {
             title: "3-BONUS",
-            decsription: "Kim bilan ishlash kerak, va kim bilan ishlamaslik kerak cheklistini. (Qiymati 497,000 so’m)",
+            decsription: "Kim bilan ishlash kerak, va kim bilan ishlamaslik kerak cheklistini. (Qiymati 497,000 som)",
             image: "/laptop.png"
         },
     ]
@@ -34,11 +34,11 @@ const Tarifs = () => {
                         <ol className='list-decimal px-5'>
                             <li>Trenigda qatnashish imkoniyati</li>
                             <li>Ishtirokchilar bilan networking</li>
-                            <li>Yopiq guruhga qo’shilish</li>
-                            <li className='line-through'>Old qatorda o’tirish</li>
+                            <li>Yopiq guruhga qo&apos;shilish</li>
+                            <li className='line-through'>Old qatorda o&apos;tirish</li>
                             <li className='line-through'>Ertasi kuni 2 soatlik yopiq offline razbor</li>
                         </ol>
-                        <p className='text-center w-full line-through font-bold text-2xl mt-5'>497,000 SO’M</p>
+                        <p className='text-center w-full line-through font-bold text-2xl mt-5'>497,000 SO&apos;M</p>
                         <p className='px-4 py-1 text-white text-4xl font-os border rounded-xl mt-5'>297.000 S&apos;M</p>
                         <button className="border h-14 flex justify-center items-center text-xl text-white rounded-[45px] bg-blue-600 w-10/12  absolute bottom-[-14px]">
                             <span>JOY BAND QILISH</span>
@@ -53,11 +53,11 @@ const Tarifs = () => {
                         <ol className='list-decimal px-5'>
                             <li>Trenigda qatnashish imkoniyati</li>
                             <li>Ishtirokchilar bilan networking</li>
-                            <li>Yopiq guruhga qo’shilish</li>
-                            <li className='line-through'>Old qatorda o’tirish</li>
+                            <li>Yopiq guruhga qo&apos;shilish</li>
+                            <li className='line-through'>Old qatorda o&apos;tirish</li>
                             <li className='line-through'>Ertasi kuni 2 soatlik yopiq offline razbor</li>
                         </ol>
-                        <p className='text-center w-full line-through font-bold text-2xl mt-5'>497,000 SO’M</p>
+                        <p className='text-center w-full line-through font-bold text-2xl mt-5'>497,000 SO&apos;M</p>
                         <p className='px-4 py-1 text-white text-4xl font-os border rounded-xl mt-5 mb-5'>297.000 S&apos;M</p>
                         <button className="border h-14 flex justify-center items-center text-xl text-white rounded-[45px] bg-blue-600 w-10/12  absolute bottom-[-14px]">
                             <span>JOY BAND QILISH</span>
@@ -78,7 +78,7 @@ const Tarifs = () => {
                                     <Image src={info.image} className={`absolute md:${index % 2 === 0 ? "top-[-40px] md:right-[-80px]" : "bottom-[-40px] md:left-[-70px]"} z-0`} width={100} height={100} />
                                     <div className="border grid grid-cols-1 grid-rows-2 gap-3 md:p-2 p-5 items-start text-xl text-white  px-5 border-white border-solid rounded-[45px] w-full h-full relative ">
                                         <p className='text-start text-2xl md:text-4xl self-center'>1-BONUS</p>
-                                        <p className='text-start  self-start text-sm'>Qimmat sotib oladigan mijozlarni jalb qilishni 7 ta qadami qo’llanma. (Qiymati 997,000 so’m)</p>
+                                        <p className='text-start  self-start text-sm'>Qimmat sotib oladigan mijozlarni jalb qilishni 7 ta qadami qo&apos;llanma. (Qiymati 997,000 so&apos;m)</p>
                                     </div>
                                 </div>
                             )

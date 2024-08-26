@@ -12,7 +12,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="flex flex-col w-4/12">
-                    <p className="text-[30px] font-syn mb-12">If you have any dream project in your mind, let's make it happen together</p>
+                    <p className="text-[30px] font-syn mb-12">If you have any dream project in your mind, let&apos;s make it happen together</p>
                     <div className="flex flex-col gap-3">
                         <div className="flex flex-col">
                             <label htmlFor="name" className="font-syn text-[#999999] font-semibold">Full name</label>
@@ -23,7 +23,7 @@ const Contact = () => {
                             <input type="email" className=" border border-transparent border-b-[2px]  font-syn bg-transparent focus:outline-none px-4 py-1 border-b-[#444444]" />
                         </div>
                         <div className="flex flex-col">
-                            <label htmlFor="email" className="font-syn text-[#999999] font-semibold">What's your mind</label>
+                            <label htmlFor="email" className="font-syn text-[#999999] font-semibold">What&apos;s your mind</label>
                             <textarea className=" border border-transparent border-b-[2px] border-b-[#444444] font-syn bg-transparent focus:outline-none px-4 py-1" ></textarea>
                         </div>
                         <div className="flex flex-col">

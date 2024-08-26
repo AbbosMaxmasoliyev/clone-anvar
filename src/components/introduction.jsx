@@ -17,7 +17,7 @@ const Introduction = () => {
         },
         {
             title: "3-mavzu:",
-            information: "Shaxsiy brendni boshlash va mijozlar ishonchini uyg’otish"
+            information: "Shaxsiy brendni boshlash va mijozlar ishonchini uygotish"
         },
         {
             title: "4-mavzu:",
@@ -39,7 +39,7 @@ const Introduction = () => {
     ]
     return (
         <div className="flex flex-col font-os text-center my-5 items-center">
-            <p className='text-2xl font-bold'>Keling sizga o’zimni tanishtirsam…</p>
+            <p className='text-2xl font-bold'>Keling sizga o&apos;zimni tanishtirsam…</p>
             <div className="flex flex-row items-center justify-center my-5">
                 <Image src={"/image_9_1.png"} width={150} height={100} />
                 <Image src={"/image_5_1.png.webp"} width={150} height={100} />

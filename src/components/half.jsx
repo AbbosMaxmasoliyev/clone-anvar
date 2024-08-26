@@ -15,16 +15,16 @@ const Half = ({ percentage = 50 }) => {
                 </div>
             </div>
 
-            <p className="text-[20px] mt-5 w-10/12 max-w-[876px] text-center">To’xtang! Hali jarayon yakunlangani yo’q…</p>
+            <p className="text-[20px] mt-5 w-10/12 max-w-[876px] text-center">To&apos;xtang! Hali jarayon yakunlangani yo&apos;q…</p>
             <p className="text-[20px] w-10/12 max-w-[876px] text-center">Cheklist sizga 5 daqiqa ichida SMS orqali yetib boradi.</p>
-            <h1 className="text-2xl w-10/12 max-w-[876px] text-center mt-5">Endi ikki qadamli qimmat sotish videodarsligini oling va e’tirozlarni yechish darsligiga BEPUL ega bo’ling!</h1>
+            <h1 className="text-2xl w-10/12 max-w-[876px] text-center mt-5">Endi ikki qadamli qimmat sotish videodarsligini oling va e&apos;tirozlarni yechish darsligiga BEPUL ega bo&apos;ling!</h1>
             <div className={"max-w-[90%] w-[760px] h-[428px] mt-5"}><iframe src="https://kinescope.io/embed/ih9kbTgr6UNRnz3Pe3qKaH" allow="autoplay; fullscreen; picture-in-picture; encrypted-media; gyroscope; accelerometer; clipboard-write;" className="w-full h-full" frameborder="0" allowfullscreen autoplay></iframe></div>
             <Link href="/payment" className="flex flex-col py-3  max-w-64 mt-8 border text-center rounded-2xl w-[90%] bg bg-gradient-to-r  from-[#D6A668] via-[#FECD8E] to-[#D6A668] font-os font-semibold shadow-btn">
                 <span>BEPUL TAKLIFNI OLISH</span>
                 <span className='font-light'>Ha 8-sentyabrda qatnashaman</span>
             </Link>
-            <Link href="https://t.me/launch_pro_bot" className="underline text-blue-600  text-center mt-5 max-w-64">Yo’q, rahmat. Men bu ajoyib taklifni hozir olishni xohlamayman, faqatgina bepul cheklistni olaman.</Link>
-            <p className="text-2xl font-bold my-5"><span className="line-through">197,000 so’m</span> atigi <span className="text-green-600">47,000 so’m</span></p>
+            <Link href="https://t.me/launch_pro_bot" className="underline text-blue-600  text-center mt-5 max-w-64">Yo&apos;q, rahmat. Men bu ajoyib taklifni hozir olishni xohlamayman, faqatgina bepul cheklistni olaman.</Link>
+            <p className="text-2xl font-bold my-5"><span className="line-through">197,000 so&apos;m</span> atigi <span className="text-green-600">47,000 so&apos;m</span></p>
             <p className="text-3xl font-bold my-5 text-center">MAXSUS TAKLIF TUGASHIGA QOLGAN VAQT:</p>
             <CountdownTimer targetDate={new Date().getTime() + 900000} />
         </div>
