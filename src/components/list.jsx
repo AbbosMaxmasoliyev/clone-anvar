@@ -12,7 +12,7 @@ const List = () => {
                         <li className="flex items-start">
                             <span className="text-2xl font-bold mr-4 font-os">01</span>
                             <span className='font-os text-xl'>
-                                Mijozlaringizni muammo va og'riqlarini aniqlaysiz va bu orqali ular nima natija uchun pul t&apos;lashga tayyorligini bilib olasiz
+                                Mijozlaringizni muammo va og&apos;riqlarini aniqlaysiz va bu orqali ular nima natija uchun pul to&apos;lashga tayyorligini bilib olasiz
                             </span>
                         </li>
                         <li className="flex items-start">
@@ -24,7 +24,7 @@ const List = () => {
                         <li className="flex items-start">
                             <span className="text-2xl font-bold mr-4 font-os">03</span>
                             <span className='font-os text-xl'>
-                                Shaxsiy brend nimadan boshlash kerakligini va bu orqali mijozlarda ishonch uyg'otishni &apos;rganasiz
+                                Shaxsiy brend nimadan boshlash kerakligini va bu orqali mijozlarda ishonch uyg&apos;otishni &apos;rganasiz
                             </span>
                         </li>
                         <li className="flex items-start">
@@ -42,7 +42,7 @@ const List = () => {
                         <li className="flex items-start">
                             <span className="text-2xl font-bold mr-4 font-os">06</span>
                             <span className='font-os text-xl'>
-                                Shaxsiy brend nimadan boshlash kerakligi va bu orqali mijozlarda ishonch uyg'otishni &apos;rganasiz
+                                Shaxsiy brend nimadan boshlash kerakligi va bu orqali mijozlarda ishonch uyg&apos;otishni &apos;rganasiz
                             </span>
                         </li>
                         <li className="flex items-start">

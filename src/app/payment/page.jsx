@@ -447,7 +447,8 @@ const Payment = () => {
                                                 <span>
                                                     {files.length > 0
                                                         ? files.map((file) => file.name).join(', ')
-                                                        : 'Chek rasmini yuklash uchun bu yerga bosing'}
+                                                        : "Chek rasmini yuklash uchun bu yerga bosing&apos"
+                                                    }
                                                 </span>
                                             </div>
                                             <input
