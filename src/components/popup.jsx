@@ -14,13 +14,13 @@ const Popup = ({ isOpen, onClose }) => {
             <button className="absolute top-[20px] right-[20px]" onClick={onClose}><MdClose color='#f1f1f1' className="text-2xl" /></button>
             <div className="max-w-md mx-auto p-6 bg-white shadow-lg rounded-md">
                 <h2 className="text-lg font-semibold mb-4 font-os">
-                &lsquo;7 qadamda qimmat sotib oladigan mijozlarni jalb qilish&lsquo; videosini olish uchun hoziroq quyidagi formani t&apos;ldiring!
+                    &lsquo;7 qadamda qimmat sotib oladigan mijozlarni jalb qilish&lsquo; videosini olish uchun hoziroq quyidagi formani t&apos;ldiring!
                 </h2>
                 <Formik
                     initialValues={{ name: '', phone: '' }}
                     onSubmit={(values) => {
                         console.log(values); // Formadagi ma'lumotlar bu yerda olinadi
-                        router.push("/half")
+                        router.push(`/payment?course=Qimmat Sotish&fullName=${values.name}&phoneNumber=${values.phone} `)
                     }}
                 >
                     {() => (

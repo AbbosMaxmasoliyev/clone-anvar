@@ -39,8 +39,8 @@ const Tarifs = () => {
                             <li className='line-through'>Ertasi kuni 2 soatlik yopiq offline razbor</li>
                         </ol>
                         <p className='text-center w-full line-through font-bold text-2xl mt-5'>497,000 SO&apos;M</p>
-                        <p className='px-4 py-1 text-white text-4xl font-os border rounded-xl mt-5'>297.000 S&apos;M</p>
-                        <button className="border h-14 flex justify-center items-center text-xl text-white rounded-[45px] bg-blue-600 w-10/12  absolute bottom-[-14px]">
+                        <p className='px-4 py-1 text-white text-4xl font-os border rounded-xl mt-5 mb-5'>297.000 S&apos;M</p>
+                        <button className="border h-14 flex justify-center items-center text-xl text-white rounded-[45px] bg-blue-600 w-10/12  absolute bottom-[-20px] md:bottom-[-14px]">
                             <span>JOY BAND QILISH</span>
                         </button>
                     </div>
@@ -59,7 +59,7 @@ const Tarifs = () => {
                         </ol>
                         <p className='text-center w-full line-through font-bold text-2xl mt-5'>497,000 SO&apos;M</p>
                         <p className='px-4 py-1 text-white text-4xl font-os border rounded-xl mt-5 mb-5'>297.000 S&apos;M</p>
-                        <button className="border h-14 flex justify-center items-center text-xl text-white rounded-[45px] bg-blue-600 w-10/12  absolute bottom-[-14px]">
+                        <button className="border h-14 flex justify-center items-center text-xl text-white rounded-[45px] bg-blue-600 w-10/12  absolute bottom-[-20px] md:bottom-[-14px]">
                             <span>JOY BAND QILISH</span>
                         </button>
                     </div>
