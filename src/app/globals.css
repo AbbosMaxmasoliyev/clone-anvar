@@ -151,7 +151,7 @@ html {
 
   position: relative;
   background: url("../../public/abdulla.png") no-repeat center center/cover;
-  width: 450px;
-  height: 800px;
+  background-size: 550px;
+  width: 100%;
   /* Rasmning balandligini moslashtiring */
 }
