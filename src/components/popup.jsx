@@ -5,7 +5,7 @@ import { Formik, Form, Field } from 'formik';
 import { useRouter } from 'next/navigation';
 
 
-const Popup = ({ isOpen, onClose }) => {
+const Popup = ({ isOpen, onClose, tarif }) => {
     const router = useRouter()
     if (!isOpen) return null;
 
@@ -17,10 +17,10 @@ const Popup = ({ isOpen, onClose }) => {
                     &lsquo;7 qadamda qimmat sotib oladigan mijozlarni jalb qilish&lsquo; videosini olish uchun hoziroq quyidagi formani t&apos;ldiring!
                 </h2>
                 <Formik
-                    initialValues={{ name: '', phone: '' }}
+                    initialValues={{ name: '', phone: '', }}
                     onSubmit={(values) => {
                         console.log(values); // Formadagi ma'lumotlar bu yerda olinadi
-                        router.push(`/payment?course=Qimmat Sotish&fullName=${values.name}&phoneNumber=${values.phone} `)
+                        router.push(`/payment?course=Qimmat Sotish&fullName=${values.name}&phoneNumber=${values.phone}${tarif ? `&tarif=${tarif}` : ""} `)
                     }}
                 >
                     {() => (

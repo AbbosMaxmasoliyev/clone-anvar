@@ -1,4 +1,4 @@
-import Payment from '@/components/payment'
+import Payment from '../../components/payment'
 import React from 'react'
 
 const Page = () => {

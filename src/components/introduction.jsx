@@ -5,7 +5,7 @@ import { TbMapPin } from "react-icons/tb";
 import { FaCalendarDays } from "react-icons/fa6";
 
 
-const Introduction = () => {
+const Introduction = ({ children }) => {
     const info = [
         {
             title: "1-mavzu:",
@@ -56,12 +56,15 @@ const Introduction = () => {
                     <div className="border flex flex-row gap-3 items-center text-xl text-white  px-5 border-white border-solid rounded-md"><FaCalendarDays /> 8-Sentabr kuni</div>
                 </div>
             </div>
+            {
+                children
+            }
             <div className="flex flex-row flex-wrap justify-center w-8/12 gap-5 ">
                 {
                     info.map((value, index) => {
 
 
-                        if (index  % 3 == 0 || (index + 1) % 3 == 1) {
+                        if (index % 3 == 0 || (index + 1) % 3 == 1) {
 
                             return (<div className="flex flex-row justify-center  bg-[#dbaa6c] p-2 rounded-md w-[434px] h-[194px]" key={index}>
                                 <div className="border flex flex-col gap-3 items-start text-xl text-white  px-5 border-white border-solid rounded-md w-full h-full py-5">

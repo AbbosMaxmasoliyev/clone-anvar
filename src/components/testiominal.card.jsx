@@ -1,5 +1,4 @@
 import React from 'react'
-import Quote from "@/assets/images/quote.svg"
 import Image from 'next/image'
 import { MdOutlineStarPurple500 } from "react-icons/md";
 

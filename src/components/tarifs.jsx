@@ -3,7 +3,7 @@ import React from 'react'
 import { FaCheck } from 'react-icons/fa'
 import { FaCircleCheck } from 'react-icons/fa6'
 
-const Tarifs = () => {
+const Tarifs = ({ submit }) => {
     const information = [
         {
             title: "1-BONUS",
@@ -23,7 +23,7 @@ const Tarifs = () => {
     ]
 
     return (
-        <div className='bg-black py-5 text-white font-os'>
+        <div className='bg-black py-5 text-white font-os' id='tarif'>
             <p className='text-4xl text-center font-bold'>TARIFLAR</p>
             <div className="flex flex-row justify-center  my-5 flex-wrap gap-10">
                 <div className="flex flex-row justify-center  bg-[#dbaa6c] p-2 rounded-[45px] relative w-[357px]">
@@ -40,7 +40,7 @@ const Tarifs = () => {
                         </ol>
                         <p className='text-center w-full line-through font-bold text-2xl mt-5'>497,000 SO&apos;M</p>
                         <p className='px-4 py-1 text-white text-4xl font-os border rounded-xl mt-5 mb-5'>297.000 S&apos;M</p>
-                        <button className="border h-14 flex justify-center items-center text-xl text-white rounded-[45px] bg-blue-600 w-10/12  absolute bottom-[-20px] md:bottom-[-14px]">
+                        <button className="border h-14 flex justify-center items-center text-xl text-white rounded-[45px] bg-blue-600 w-10/12  absolute bottom-[-20px] md:bottom-[-14px]" onClick={() => submit("premium")}>
                             <span>JOY BAND QILISH</span>
                         </button>
                     </div>
@@ -59,7 +59,9 @@ const Tarifs = () => {
                         </ol>
                         <p className='text-center w-full line-through font-bold text-2xl mt-5'>497,000 SO&apos;M</p>
                         <p className='px-4 py-1 text-white text-4xl font-os border rounded-xl mt-5 mb-5'>297.000 S&apos;M</p>
-                        <button className="border h-14 flex justify-center items-center text-xl text-white rounded-[45px] bg-blue-600 w-10/12  absolute bottom-[-20px] md:bottom-[-14px]">
+                        <button className="border h-14 flex justify-center items-center text-xl text-white rounded-[45px] bg-blue-600 w-10/12  absolute bottom-[-20px] md:bottom-[-14px]"
+                            onClick={() => submit("vip")}
+                        >
                             <span>JOY BAND QILISH</span>
                         </button>
                     </div>

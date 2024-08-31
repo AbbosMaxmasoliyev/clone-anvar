@@ -10,7 +10,7 @@ import { useParams } from 'next/navigation';
 
 const Payment = (props) => {
     console.log(props);
-    
+
     const router = useRouter();
     const searchParams = useSearchParams();
     const course = searchParams.get('course');
@@ -214,7 +214,7 @@ const Payment = (props) => {
                         </div>
                     </div>
 
-                    <div className="flex hidden bg-white rounded-xl shadow-black/5 border-stone-200" id="timeout">
+                    <div className="hidden bg-white rounded-xl shadow-black/5 border-stone-200" id="timeout">
                         <div className="min-w-[100px]">
                             <img width="100px" src="https://pays.supermiya.uz/storage/time-over.png" alt="timeover" />
                         </div>
@@ -516,7 +516,7 @@ const Payment = (props) => {
 
 export async function getStaticProps(context) {
     console.log(context);
-    
+
     const { query } = context;
     const course = query.course || '';
     const fullName = query.fullName || '';
