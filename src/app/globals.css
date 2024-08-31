@@ -144,3 +144,14 @@ html {
   align-items: center;
   left: calc(50% - 15px);
 }
+
+
+
+.hero-image {
+
+  position: relative;
+  background: url("../../public/abdulla.png") no-repeat center center/cover;
+  width: 450px;
+  height: 800px;
+  /* Rasmning balandligini moslashtiring */
+}
